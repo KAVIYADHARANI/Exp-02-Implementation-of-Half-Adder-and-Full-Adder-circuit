@@ -53,19 +53,14 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 
 
 ### Program:
-
+```
 module full_add(a,b,c,sum,carry);
-
 input a,b,c;
-
 output sum,carry; 
-
 xor(sum,a,b,c);
-
 assign carry=a&b|b&c|a&c; 
-
 endmodule
-
+```
 # RTL realization
 ![image](https://github.com/KAVIYADHARANI/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870680/fe8528ff-7196-47d9-a185-09884d82e0a4)
 
