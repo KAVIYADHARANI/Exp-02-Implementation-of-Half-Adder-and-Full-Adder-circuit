@@ -64,12 +64,16 @@ endmodule
 # RTL realization
 ![image](https://github.com/KAVIYADHARANI/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870680/fe8528ff-7196-47d9-a185-09884d82e0a4)
 
+
 # TRUTH TABLE
 ![image](https://github.com/KAVIYADHARANI/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870680/0525f752-d305-4304-b6b0-af80be6bcc80)
+
 
 ### TIMING DIAGRAM
 <img width="960" alt="fulladder(w)" src="https://github.com/KAVIYADHARANI/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870680/0f77fbbd-e84b-4fcd-8a37-f1d0cc9c10cd">
 
+
 ### Result:
+
 Thus the given logic functions are implemented and their operations are verified using verilog programming.
 
