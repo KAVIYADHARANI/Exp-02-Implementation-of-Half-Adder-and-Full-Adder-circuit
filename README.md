@@ -25,18 +25,14 @@ Sum = A’B+AB’ =A ⊕ B Carry = AB
 ![image](https://github.com/KAVIYADHARANI/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870680/0e80d074-d929-4cc9-a758-6ccf6e1b2d77)
 
 # PROGRAM
+```
 module half_add(a,b,sum,carry);	                                   
-
 input a,b;
-
 output sum,carry; 
-
 xor(sum,a,b);
-
 and(carry,a,b);
-
 endmodule
-
+```
 # RTL REALIZATION
 
 ![image](https://github.com/KAVIYADHARANI/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/144870680/50ad7bbe-b402-47bf-885d-31b441cae313)
